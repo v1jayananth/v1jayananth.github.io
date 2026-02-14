@@ -2,17 +2,22 @@
 
 - type: github
   icon: "fab fa-github"
+  url: 'https://github.com/v1jayananth'
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: linkedin
+  icon: "fab fa-linked"
+  url: 'https://www.linkedin.com/in/vijay-anantharaman-ab19251b6'
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+#
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: true # open link in current tab
+#
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
