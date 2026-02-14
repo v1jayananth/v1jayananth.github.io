@@ -1,0 +1,18 @@
+---
+title: "Testing"
+date: 2026-02-14 05:20:00
+tags: [testing, hello-world]
+categories: [Testing]
+---
+# Testing
+
+## Testing 2
+
+> [!tip]
+> A good way to start anything is to just start and test.
+
+```python
+print("hello world")
+```
+
+![test image](../images/spider_icon.jpg)
