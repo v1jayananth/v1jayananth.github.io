@@ -19,7 +19,7 @@ title: Absolute Zero Trust # the main title
 tagline: Freezing cyber threats in their tracks💻, a cybersecurity blog that is focused on Threat Intelligence, Malware Analysis and Reverse Engineering # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-Technical deep dives into malware analysis, threat intelligence, and reverse engineering. Documenting the hunt at Absolute Zero Trust.
+  Technical deep dives into malware analysis, threat intelligence, and reverse engineering. Documenting the hunt at Absolute Zero Trust.
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://v1jayananth.github.io"
