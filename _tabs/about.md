@@ -44,5 +44,5 @@ Currently actively pursuing pathways and doing CTFs in TryHackMe.
 
 ## To reach me
 
-- [LinkedIn Profile](www.linkedin.com/in/vijay-anantharaman-ab19251b6)
+- [LinkedIn Profile](https://www.linkedin.com/in/vijay-anantharaman-ab19251b6)
 - [Github](https://github.com/v1jayananth)
