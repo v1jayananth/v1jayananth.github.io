@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# `whatis` 
+# **whatis**
 
 Welcome to **Absolute Zero Trust**. This blog is dedicated to the cold, hard logic of malware analysis and actionable threat intelligence. 
 
@@ -16,7 +16,7 @@ Welcome to **Absolute Zero Trust**. This blog is dedicated to the cold, hard log
 
 
 
-# `whoami`
+# **whoami**
 
 Current Masters student in Cybersecurity, with a Bachelors degree in Computer Science. I like Cybersecurity, with a focus on the fields **Threat Intelligence**, **Malware Analysis** and **Reverse Engineering**. 
 
@@ -28,7 +28,7 @@ Linux User 🐧 since 2019
 ## TryHackMe
 
 <div class="badge container">
-  <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=555687" style='border:none; width:450px; height:120px;' scrolling="no" sandbox="allow-scripts allow-same-origin" loading="lazy">
+  <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=555687" style='border:none; width:350px; height:90px;' scrolling="no" sandbox="allow-scripts allow-same-origin" loading="lazy">
   </iframe>
 </div>
 
