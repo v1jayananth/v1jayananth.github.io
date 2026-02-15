@@ -10,11 +10,8 @@ Welcome to **Absolute Zero Trust**. This blog is dedicated to the cold, hard log
 
 **Never trust, always verify, verify again, and isolate until proven benign.**
 
-{: .important }
 > I am a beginner, and this blog was created to ensure I share what I learn along the way. 
-
-
-
+{: .prompt-info }
 
 # **whoami**
 
@@ -28,7 +25,7 @@ Linux User 🐧 since 2019
 ## TryHackMe
 
 <div class="badge container">
-  <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=555687" style='border:none; width:350px; height:90px;' scrolling="no" sandbox="allow-scripts allow-same-origin" loading="lazy">
+  <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=555687" style='border:none; width:330px; height:85px;' scrolling="no" sandbox="allow-scripts allow-same-origin" loading="lazy">
   </iframe>
 </div>
 
