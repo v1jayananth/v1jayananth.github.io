@@ -38,7 +38,7 @@ The goal is to find the secret **ValenFlag**, which as most tryhackme flags go, 
 - Clearly, we have to do something with the role or the credits. 
 
 > Time to load cyberchef :)
-> {: .prompt-tip}
+ {: .prompt-tip}
 
 - With cyberchef, you have a recipe called **JWT-Sign**. Use it
 - The default private signing key is **secret**, let's see if it works. 
@@ -55,7 +55,7 @@ The goal is to find the secret **ValenFlag**, which as most tryhackme flags go, 
 **What went wrong here?**
 
 > The developers of this vulnerable used a guessable, short, key **secret**. 
-> {: .prompt-danger}
+{: .prompt-danger}
 
 ## JSON Web Token
 
@@ -67,9 +67,9 @@ The goal is to find the secret **ValenFlag**, which as most tryhackme flags go, 
 In our case, when we encoded JSON in CyberChef with private signing key "secret" and set the resulting jwt in the server as a cookie, it recalculates using it's own key as well. If the signatures don't match then it shouldn't work. But it does, because a weak, "easy-to-guess" private signing key "secret" was used. 
 
 > In real life, one would use jwt crackers that brute force the private signing key using a wordlist or some pattern
-> {: .prompt-tip}
+{: .prompt-tip}
 
 > It is also important to note, that there may be other ways too. JWTs have many vulnerabilities
-> {: .prompt-warning}
+{: .prompt-warning}
 
 **Happy Hacking!**
