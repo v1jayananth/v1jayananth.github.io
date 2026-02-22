@@ -54,7 +54,7 @@ The goal is to find the secret **ValenFlag**, which as most tryhackme flags go, 
 
 **What went wrong here?**
 
-> The developers of this vulnerable used a guessable, short, key **secret**. 
+> The developers of this vulnerable website used a guessable, short, key **secret**. 
 {: .prompt-danger}
 
 ## JSON Web Token
