@@ -5,8 +5,6 @@ categories: [TryHackMe Challenges]
 tags: [tryhackme, challenges, ai, prompt injection]
 ---
 
-# Cupid Bot
- 
 > This is my first ever post on this blog, and it's a tryhackme writeup.
 > 
 > There are no flags here, only what the room is about and how to proceed to get close to the flags. 
