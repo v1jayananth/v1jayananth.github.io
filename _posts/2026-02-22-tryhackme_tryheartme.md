@@ -48,14 +48,17 @@ The goal is to find the secret **ValenFlag**, which as most tryhackme flags go, 
 ![CyberChef, JWT Sign]({{ "/assets/img/cyberchef_tryheartme.png" | relative_url }})
 
 - Now you have a modified jwt, take it, and replace your original cookie with this (inspect page -> storage -> cookies), and reload the page
-- You should now have 5000 credits (if you modified role to **admin**), and an option to buy the valenflag for 777. Since 5000 > 777 (obviously), just buy it and you will get the flag
+- You should now have 5000 credits (if you modified role to **admin**), and an option to buy the valenflag for 777. Since 5000 > 777 (obviously), just buy it and you will get the flag.
 
 # Vulnerability
 
 **What went wrong here?**
 
-> The developers of this vulnerable website used a guessable, short, key **secret**. 
+> The developers of this vulnerable website do not validate the digital signature!
 {: .prompt-danger}
+
+- You can try different private signing keys in cyberchef, to sign the jwt token, and place it as a cookie, and reload, and you will see changes. The server does not reject your cookie, because it doesn't verify the digital signature at all.
+- Basically, there is no integrity check within this website. Anyone can tamper with it with ease. 
 
 ## JSON Web Token
 
@@ -64,10 +67,8 @@ The goal is to find the secret **ValenFlag**, which as most tryhackme flags go, 
 - However, **digital signatures** are used to ensure the data isn't tampered with. 
 - The header and payload and signed with a private signing key. 
 
-In our case, when we encoded JSON in CyberChef with private signing key "secret" and set the resulting jwt in the server as a cookie, it recalculates using it's own key as well. If the signatures don't match then it shouldn't work. But it does, because a weak, "easy-to-guess" private signing key "secret" was used. 
-
-> In real life, one would use jwt crackers that brute force the private signing key using a wordlist or some pattern
-{: .prompt-tip}
+> In this challenge, the website doesn't validate the digital signature. You can use any private signing key, anything. Since it isn't encrypted, and just base64 encoded, the server can see the JSON values that you provide after modification.
+{: .prompt-info}
 
 > It is also important to note, that there may be other ways too. JWTs have many vulnerabilities
 {: .prompt-warning}
