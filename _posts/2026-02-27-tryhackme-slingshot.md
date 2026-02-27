@@ -33,7 +33,7 @@ We will modify the starting date to **July 26, 2023**. We can see that everythin
 
 > It may be useful to add the `request.headers.User-Agent` field as a column. 
 > To do that, simple navigate to the fields on the left, search for the field, and click the `+` icon to add it as a column. This challenge can be easily solved using this field
-> {: .prompt-tip}
+{: .prompt-tip}
 
 - The attacker then finds an interesting login page, `admin-login.php`. This comes under status 401 however, which is why you couldn't see it in the previous query. 
 - The attacker starts to use hydra, and the base64 encoded strings vary towards the end. This is because, the attacker sets the username as `admin` and only changes the password to try. Eventually, one of the passwords is right and you can find it using the following query:
@@ -41,13 +41,13 @@ We will modify the starting date to **July 26, 2023**. We can see that everythin
 - /uploads/easy-simple-php-webshell.php, attacker uploaded this web shell after gaining admin privileges
 
 > Once again, add the `http.url` field as a column, makes it much easier to analyze
-> {: .prompt-tip}
+{: .prompt-tip}
 
 - There is a flag starting with `THM` in file uploaded to admin directory
 ,   - `http.url: /admin/upload.php?action=upload`, check this entry
 
 > Beyond this point, you just have to go through the logs manually. Read them, and the attackers' steps become quite obvious
-> {: .prompt-info}
+{: .prompt-info}
 
 - /uploads/easy-simple-php-webshell.php?cmd=whoami
 - Attacker tries to traverse directories: `/admin/settings.php?page=../../../../../../../../etc/phpmyadmin/config-db.php`
