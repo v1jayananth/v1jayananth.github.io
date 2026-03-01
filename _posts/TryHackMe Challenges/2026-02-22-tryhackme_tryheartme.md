@@ -1,7 +1,6 @@
 ---
 title: TryHeartMe - Web-based TryHackMe Challenge
 date:  2026-02-22 00:00:00 +0100
-categories: [TryHackMe Challenges]
 tags: [tryhackme, challenges, web, jwt]
 ---
 

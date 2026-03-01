@@ -1,9 +1,6 @@
 ---
 title: TryHackMe Slingshot ELK Stack Challenge
 date:  2026-02-27 00:00:00 +0100
-categories:
-  - TryHackMe Challenges
-  - TryHackMe SOC Level 2
 tags: [tryhackme, ELK stack, kibana, challenge, logging]
 ---
 

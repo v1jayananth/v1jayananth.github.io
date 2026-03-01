@@ -1,7 +1,6 @@
 ---
 title: TryHackMe Cupid Bot
 date:  2026-02-15 22:20:00 +0100
-categories: [TryHackMe Challenges]
 tags: [tryhackme, challenges, ai, prompt injection]
 ---
 
