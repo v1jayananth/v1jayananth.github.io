@@ -84,7 +84,7 @@ There are a few mandatory fields required for every rule, and others that are op
 
 ### Sample Sigma Rule
 
-```sigma
+```
 title: #Title of your rule
 id: #Universally Unique Identifier (UUID) Generate one from https://www.uuidgenerator.net
 status: #stage of your rule testing 
@@ -116,7 +116,7 @@ The best way is to understand with some examples. We are working with windows ev
 
 We are given this sample: 
 
-```sigma
+```
 detection:
   selection:
     HostApplication|contains:
@@ -150,7 +150,7 @@ They are many modifiers, split into **Transformation** and **Type** modifiers. `
 
 Regarding conditions, let's see some example for them: 
 
-```sigma
+```
 detection:
   tools:
          - 'scp'
@@ -166,7 +166,7 @@ The detection here seeks to look for `scp` or `rsync` or `sftp` with either of t
 
 Another example, that may be a little more complex: 
 
-```sigma
+```
 detection:
   selection:
     TargetObject|startswith: 'HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components'
@@ -234,7 +234,7 @@ After this, some tags, falsepositives and the references need to be added.
 
 With that, the complete rule is as follows:
 
-```sigma
+```
 title: AnyDesk Installation
 status: experimental
 description: AnyDesk Remote Desktop installation can be used by attack to gain remote access with elevated privileges
@@ -278,7 +278,7 @@ The IT manager noted some schedule tasks being created and some ransomware activ
 You have to use Sigma rule to set detection parameters. You can perform search queries through Kibana directly if required. 
 Let's do this
 
-```sigma
+```
 title: Scheduled Ransomware Activity
 status: experimental
 description: Unknown entity creates schedulesd tasks, which subsequently could correlate with some recorded ransomware activity
@@ -301,7 +301,7 @@ The "-----" indicate name of the task, which is a required answer for the room. 
 
 Now we need to look for the ransomware files. 
 
-```sigma
+```
 title: Ransomware text file
 status: experimentsal
 description: A ransomware file is created with a `.txt` ending. It is created via `cmd.exe`
