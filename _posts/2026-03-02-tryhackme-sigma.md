@@ -259,7 +259,7 @@ tags:
     - attack.t1219
 ```
 
-## Convering Sigma rules to enable usage is SIEMs
+## Converting Sigma rules to enable usage is SIEMs
 
 > Sigmac used to be a tool, but deprecated since 2022. The Sigma repo now uses `sigma-cli`? 
 {: .prompt-warning}
