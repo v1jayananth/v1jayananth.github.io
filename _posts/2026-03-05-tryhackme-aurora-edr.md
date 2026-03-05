@@ -44,7 +44,7 @@ In general, EDRs can
 
 ## Event Tracing for Windows (ETW)
 
-This is a Windows OS loging feature that allows logging events raised by user-mode applications and kernel-mode drivers. ETW is the one that provides capability for applications and drivers to write events. 
+This is a Windows OS logging feature that allows logging events raised by user-mode applications and kernel-mode drivers. ETW is the one that provides capability for applications and drivers to write events. 
 
 > "Normal" Windows Event Logging is built on top of ETW, it's a consumer of ETW events. 
 {: .prompt-info}
