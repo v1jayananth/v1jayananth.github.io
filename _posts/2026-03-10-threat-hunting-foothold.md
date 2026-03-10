@@ -45,7 +45,7 @@ All of the logs are for the date **July 3, 2023**. This is the day a supposed at
 
 ***
 
-## Initial Access
+## Initial Access — MITRE ATT&CK (TA0001)
 
 ### Techniques Overview
 
@@ -223,7 +223,7 @@ To view what was spawned by the shortcut, click on the dropdown for one of those
 
 Add **process.executable**, before you do the above. And you will find a very popular command line tool used in windows, being spawned.
 
-## Execution
+## Execution — MITRE ATT&CK (TA0002)
 
 ### Techniques Overview
 
@@ -480,7 +480,7 @@ Now, just like in a previous step, it's important to **note the PID** and use it
 
 ![Child processes]({{ "assets/img/foothold_elastic_scripting_tools_pid.png" | relative_url }})
 
-## Defense Evasion
+## Defense Evasion — MITRE ATT&CK (TA0005)
 
 ### Key Techniques Overview
 
