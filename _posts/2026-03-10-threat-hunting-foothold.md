@@ -2,7 +2,7 @@
 title: TryHackMe Threat Hunting Foothold
 date: 2026-03-10 00:00:00 +0100
 categories: [Threat Hunting]
-tags: [tryhackme, threat hunting, kill chain, mitre att&ck]
+tags: [tryhackme, threat hunting, kill chain, mitre att&ck, ELK stack, logging]
 series: ""
 series_order: 
 ---
