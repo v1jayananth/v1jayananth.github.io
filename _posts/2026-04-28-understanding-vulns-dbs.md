@@ -31,11 +31,11 @@ With proper standardization, these databases enable efficient vulnerability mana
 4. CWE (Common Weakness Enumeration): Grouping vulnerabilities by their **root cause**. For example, `CWE-89` is SQL Injection. Helps understand the vulnerability landscape for different types of vulnerabilities, giving more insight for security professionals. 
 5. CVE Numbering Authorities (CNA): Organizations that are authorized to assign CVEs. CNAs help scaling CVE program by allowing vendors and organizations to research and report. 
 
-> [!note]
 > Other metadata like descriptions, remediation information are also included as reference. 
+{: .prompt-info}
 
-> [!note] 
 > Severity vs Risk: Severity describes **technical impact**. Risk considers how that vulnerability affects a **specific environment**. 
+{: .prompt-info}
 
 ## CVE List
 
