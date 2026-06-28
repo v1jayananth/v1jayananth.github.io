@@ -1,13 +1,17 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-  url: 'https://github.com/v1jayananth'
 
 - type: linkedin
-  icon: "fab fa-linkedin"
+  icon: "fab fa-linkedin text-info"
   url: 'https://www.linkedin.com/in/vijay-anantharaman-ab19251b6'
 
+- type: credly
+  icon: 'fas fa-award text-success'
+  url: 'https://www.credly.com/users/vijay-anantharaman.53d6450e/edit/badges/credly'
+
+- type: github
+  icon: "fab fa-github text-primary"
+  url: 'https://github.com/v1jayananth'
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 #

@@ -16,10 +16,10 @@ timezone: Europe/Berlin
 
 title: Absolute Zero Trust # the main title
 
-tagline: Freezing cyber threats in their tracks💻, a cybersecurity blog that is focused on Threat Intelligence, Malware Analysis and Reverse Engineering # it will display as the subtitle
+tagline: Freezing cyber threats in their tracks - a cybersecurity blog by an aspiring cybersecurity professional # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Technical deep dives into malware analysis, threat intelligence, and reverse engineering. Documenting the hunt at Absolute Zero Trust.
+  Technical deep dives into Blue Teaming, Red Teaming, Malware Analysis, Threat Intelligence, Incident Response, Security Architecture and Reverse Engineering. Documenting the hunt at Absolute Zero Trust.
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://v1jayananth.github.io"
@@ -34,7 +34,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Vijay Anantharaman
-  email: vijayalderson@protonmail.com # change to your email address
+  email: vijay.anantharaman@protonmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
@@ -42,6 +42,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/vijay-anantharaman-ab19251b6
+    - https://www.credly.com/users/vijay-anantharaman.53d6450e/edit/badges/credly
 
 # Site Verification Settings
 webmaster_verifications:
@@ -97,11 +98,12 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ./images/spider_icon.jpg
+avatar: ./assets/img/snowflake.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: ./assets/img/snowflake.png # string, local or CORS resources
+# social_preview_image: ./images/spider_icon.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
