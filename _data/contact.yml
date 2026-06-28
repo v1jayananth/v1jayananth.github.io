@@ -2,15 +2,15 @@
 
 
 - type: linkedin
-  icon: "fab fa-linkedin text-info"
+  icon: 'fab fa-linkedin" style="color:#0dcaf0;'
   url: 'https://www.linkedin.com/in/vijay-anantharaman-ab19251b6'
 
 - type: credly
-  icon: 'fas fa-award text-success'
+  icon: 'fas fa-award" style="color:#198754;'
   url: 'https://www.credly.com/users/vijay-anantharaman.53d6450e/edit/badges/credly'
 
 - type: github
-  icon: "fab fa-github text-primary"
+  icon: 'fab fa-github" style="color:#0d6efd;'
   url: 'https://github.com/v1jayananth'
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"

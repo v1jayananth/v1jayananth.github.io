@@ -1,5 +1,5 @@
 ---
 layout: tags
-icon: fas fa-tags text-warning
+icon: fas fa-tags" style="color:#ffc107;
 order: 2
 ---
