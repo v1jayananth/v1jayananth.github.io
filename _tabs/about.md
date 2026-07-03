@@ -15,6 +15,20 @@ order: 4
 - **Focusing technical professional development on Security Operations Center (SOC) environments and defensive security strategies**. 
 - Proficient in Unix-based systems (Linux and Macos)
 
+## Interests
+
+- Threat Intelligence
+- SOC Operations
+- Malware Analysis 
+- Reverse Engineering (Still a newbie, need to learn more)
+- Ethical Hacking
+
+---
+
+> View all active certifications via the LinkedIn and Credly links at the bottom left.
+{: .prompt-tip}
+
+
 ## Official Certifications
 
 ![CompTIA Security+]({{ "assets/certificates/CompTIA.png" | relative_url}}){: width="200" class="img-thumbnail"}
@@ -30,10 +44,3 @@ _Google IT Support Specialization_
 - Coursera Open Source Software Development, Linux and Git Specialization
 - IT Fundamentals for Cybersecurity Specialization
 
-## Interests
-
-- Threat Intelligence
-- SOC Operations
-- Malware Analysis 
-- Reverse Engineering (Still a newbie, need to learn more)
-- Ethical Hacking
