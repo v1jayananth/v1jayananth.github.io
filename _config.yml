@@ -16,7 +16,7 @@ timezone: Europe/Berlin
 
 title: Absolute Zero Trust # the main title
 
-tagline: 'Freezing cyber threats - a cybersecurity blog'
+tagline: 'A cybersecurity blog to freeze cybersecurity threats'
 
 description: >- # used by seo meta and the atom feed
   Technical deep dives into Blue Teaming, Red Teaming, Malware Analysis, Threat Intelligence, Incident Response, Security Architecture and Reverse Engineering. Documenting the hunt at Absolute Zero Trust.
