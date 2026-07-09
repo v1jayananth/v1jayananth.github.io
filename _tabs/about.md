@@ -10,7 +10,7 @@ order: 4
 
 # **whoami**
 
-- Currently Pursuing **Master (MSc) in Cybersecurity** at the **University of Bonn** (Germany)
+- Currently pursuing **Master (MSc) in Cybersecurity** at the **University of Bonn** (Germany)
 - Bachelor of Science (BSc) in Computer Science. 
 - **Focusing technical professional development on Security Operations Center (SOC) environments and defensive security strategies**. 
 - Proficient in Unix-based systems (Linux and Macos)
@@ -25,7 +25,7 @@ order: 4
 
 ---
 
-> View all active certifications via the LinkedIn and Credly links at the bottom left.
+> View all active certifications via the LinkedIn and Credly links at the bottom of the left sidebar. 
 {: .prompt-tip}
 
 
