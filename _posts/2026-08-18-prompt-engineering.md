@@ -1,5 +1,5 @@
 ---
-title: Prompt Enginerring
+title: Prompt Engineering
 date: 2026-08-18 00:00:00 +0200
 categories: [AI Security]
 tags: [ai security, prompts, llm, models]
